@@ -765,3 +765,7 @@ $ cargo +1.99.0 build --release --target x86_64-pc-windows-msvc
 Compiled clean. Casting the ingot.
 ##thermite:packaged thermite-01M6JKZX81NB49JTAE2TQBWJGA.zip sha256=7b524b5e39dcef8655dd12be285f37d5d57b99d372d4107eef51f38f275a7759
 ##thermite:ingot https://github.com/XendrackOfficial/thermite-crucible/releases/download/pour-01M6JKZX81NB49JTAE2TQBWJGA/thermite-01M6JKZX81NB49JTAE2TQBWJGA.zip
+
+BUILD SUCCESS
+
+##thermite:end:SUCCESS
