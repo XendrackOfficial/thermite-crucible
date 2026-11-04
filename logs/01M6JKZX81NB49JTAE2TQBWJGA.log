@@ -420,3 +420,8 @@ $ cargo +1.99.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m windows v0.62.2
 [1m[92m   Compiling[0m os-flp v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\crates\os-flp)
 [1m[92m   Compiling[0m asio-sys v0.4.0
+[1m[92m   Compiling[0m block-buffer v0.10.4
+[1m[92m   Compiling[0m crypto-common v0.1.7
+[1m[92m   Compiling[0m mp3lame-sys v0.1.11
+[1m[92m   Compiling[0m aotuv_lancer_vorbis_sys v0.1.6
+[1m[92m   Compiling[0m tracing-core v0.1.36
