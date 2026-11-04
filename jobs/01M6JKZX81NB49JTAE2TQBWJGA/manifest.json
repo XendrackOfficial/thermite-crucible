@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "01M6JKZX81NB49JTAE2TQBWJGA",
+  "toolchain": "1.99.0",
+  "target": "x86_64-pc-windows-msvc",
+  "projectType": "cargo",
+  "name": "Lemon-Studio",
+  "entry": "",
+  "submittedAt": "2026-11-04T06:29:54.564Z",
+  "client": "thermite-web/1.0.0",
+  "files": 0,
+  "bytes": 0,
+  "source": {
+    "kind": "repo",
+    "owner": "ItsAlphaNeon",
+    "repo": "Lemon-Studio",
+    "ref": "main"
+  },
+  "cleanup": {
+    "policy": "expire",
+    "onFailure": "keep"
+  }
+}
