@@ -274,3 +274,5 @@ $ cargo +1.99.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m simd-adler32 v0.3.10
 [1m[92m   Compiling[0m regex-lite v0.1.9
 [1m[92m   Compiling[0m shlex v1.3.0
+[1m[92m   Compiling[0m symphonia-metadata v0.6.1
+[1m[92m   Compiling[0m dasp_frame v0.11.0
