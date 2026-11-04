@@ -459,3 +459,4 @@ $ cargo +1.99.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m seq-macro v0.3.6
 [1m[92m   Compiling[0m clap-sys v0.5.0
 [1m[92m   Compiling[0m typed-path v0.13.0
+[1m[92m   Compiling[0m smol_str v0.2.2
