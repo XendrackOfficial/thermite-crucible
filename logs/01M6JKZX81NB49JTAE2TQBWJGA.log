@@ -316,3 +316,10 @@ $ cargo +1.99.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m libm v0.2.16
 [1m[92m   Compiling[0m vst3-com-macros-support v0.2.0 (https://github.com/robbert-vdh/vst3-sys.git?branch=fix%2Fdrop-box-from-raw#b3ff4d77)
 [1m[92m   Compiling[0m miniz_oxide v0.9.1
+[1m[92m   Compiling[0m parking_lot_core v0.9.12
+[1m[92m   Compiling[0m winapi v0.3.9
+[1m[92m   Compiling[0m serde v1.0.229
+[1m[92m   Compiling[0m equivalent v1.0.2
+[1m[92m   Compiling[0m crossbeam-epoch v0.9.21
+[1m[92m   Compiling[0m zlib-rs v0.6.8
+[1m[92m   Compiling[0m vst3-com-macros v0.2.0 (https://github.com/robbert-vdh/vst3-sys.git?branch=fix%2Fdrop-box-from-raw#b3ff4d77)
