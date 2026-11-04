@@ -348,3 +348,8 @@ $ cargo +1.99.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m arrayref v0.3.9
 [1m[92m   Compiling[0m anyhow v1.0.104
 [1m[92m   Compiling[0m tiny-skia-path v0.11.4
+[1m[92m   Compiling[0m time v0.3.55
+[1m[92m   Compiling[0m hashbrown v0.15.5
+[1m[92m   Compiling[0m atty v0.2.14
+[1m[92m   Compiling[0m png v0.17.16
+[1m[92m   Compiling[0m termcolor v1.4.1
