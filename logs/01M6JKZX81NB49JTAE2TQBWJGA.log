@@ -397,3 +397,5 @@ $ cargo +1.99.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m os-plugkit v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\crates\os-plugkit)
 [1m[92m   Compiling[0m lemon-small-fx v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\plugins\lemon-small-fx)
 [1m[92m   Compiling[0m windows-interface v0.59.3
+[1m[92m   Compiling[0m windows-implement v0.60.2
+[1m[92m   Compiling[0m windows-strings v0.5.1
