@@ -1,0 +1,8 @@
+THERMITE // pour 01M6JKZX81NB49JTAE2TQBWJGA
+commit  862c6e0c956b4c69f97a3b53541f4882b31923ba
+run     41785933647
+target  x86_64-pc-windows-msvc
+rust    1.99.0
+runner  Windows/X64
+
+$ git clone --depth 1 https://github.com/ItsAlphaNeon/Lemon-Studio.git (ref main)
