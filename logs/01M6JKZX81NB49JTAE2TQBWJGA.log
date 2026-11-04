@@ -282,3 +282,10 @@ $ cargo +1.99.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m symphonia-common v0.6.1
 [1m[92m   Compiling[0m dasp_ring_buffer v0.11.0
 [1m[92m   Compiling[0m bindgen v0.70.1
+[1m[92m   Compiling[0m dasp_rms v0.11.0
+[1m[92m   Compiling[0m dasp_peak v0.11.0
+[1m[92m   Compiling[0m rustc-hash v1.1.0
+[1m[92m   Compiling[0m thiserror v2.0.21
+[1m[92m   Compiling[0m dasp_envelope v0.11.0
+[1m[92m   Compiling[0m dasp_interpolate v0.11.0
+[1m[92m   Compiling[0m miniz_oxide v0.8.9
