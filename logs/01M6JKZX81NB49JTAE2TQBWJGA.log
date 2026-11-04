@@ -474,3 +474,4 @@ $ cargo +1.99.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m citrus v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\plugins\citrus)
 [1m[92m   Compiling[0m lemon-3x-osc v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\plugins\lemon-3x-osc)
 [1m[92m   Compiling[0m lemon-peak-controller v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\plugins\lemon-peak-controller)
+[1m[92m   Compiling[0m lemon-stereo-shaper v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\plugins\lemon-stereo-shaper)
