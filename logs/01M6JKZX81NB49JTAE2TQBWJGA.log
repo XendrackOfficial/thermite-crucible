@@ -496,3 +496,69 @@ $ cargo +1.99.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m os-vst3 v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\crates\os-vst3)
 [1m[92m   Compiling[0m os-smf v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\crates\os-smf)
 [1m[92m   Compiling[0m jpeg-decoder v0.3.2
+[1m[92m   Compiling[0m os-native-probe v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\tools\os-native-probe)
+[1m[93mwarning[E0133][0m[1m[97m: call to unsafe function `windows_sys::Win32::UI::WindowsAndMessaging::DefWindowProcW` is unsafe and requires unsafe block[0m
+  [1m[96m--> [0mtools\os-native-probe\src\editor.rs:27:5
+   [1m[96m|[0m
+[1m[96m27[0m [1m[96m|[0m     DefWindowProcW(h, m, w, l)
+   [1m[96m|[0m     [1m[93m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m [1m[93mcall to unsafe function[0m
+   [1m[96m|[0m
+   [1m[96m= [0m[1m[97mnote[0m: consult the function's documentation for information on how to avoid undefined behavior
+[1m[92mnote[0m: an unsafe function restricts its caller, but its body is safe by default
+  [1m[96m--> [0mtools\os-native-probe\src\editor.rs:26:1
+   [1m[96m|[0m
+[1m[96m26[0m [1m[96m|[0m unsafe extern "system" fn wndproc(h: HWND, m: u32, w: WPARAM, l: LPARAM) -> LRESULT {
+   [1m[96m|[0m [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+   [1m[96m= [0m[1m[97mnote[0m: for more information, see <https://doc.rust-lang.org/edition-guide/rust-2024/unsafe-op-in-unsafe-fn.html>
+   [1m[96m= [0m[1m[97mnote[0m: `#[warn(unsafe_op_in_unsafe_fn)]` (part of `#[warn(rust_2024_compatibility)]`) on by default
+
+[1m[93mwarning[E0133][0m[1m[97m: dereference of raw pointer is unsafe and requires unsafe block[0m
+  [1m[96m--> [0mtools\os-native-probe\src\probe71.rs:83:15
+   [1m[96m|[0m
+[1m[96m83[0m [1m[96m|[0m     let rec = (*info).ExceptionRecord;
+   [1m[96m|[0m               [1m[93m^^^^^^^[0m [1m[93mdereference of raw pointer[0m
+   [1m[96m|[0m
+   [1m[96m= [0m[1m[97mnote[0m: raw pointers may be null, dangling or unaligned; they can violate aliasing rules and cause data races: all of these are undefined behavior
+[1m[92mnote[0m: an unsafe function restricts its caller, but its body is safe by default
+  [1m[96m--> [0mtools\os-native-probe\src\probe71.rs:82:1
+   [1m[96m|[0m
+[1m[96m82[0m [1m[96m|[0m unsafe extern "system" fn veh(info: *mut EXCEPTION_POINTERS) -> i32 {
+   [1m[96m|[0m [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+   [1m[96m= [0m[1m[97mnote[0m: for more information, see <https://doc.rust-lang.org/edition-guide/rust-2024/unsafe-op-in-unsafe-fn.html>
+
+[1m[93mwarning[E0133][0m[1m[97m: dereference of raw pointer is unsafe and requires unsafe block[0m
+  [1m[96m--> [0mtools\os-native-probe\src\probe71.rs:87:8
+   [1m[96m|[0m
+[1m[96m87[0m [1m[96m|[0m     if (*rec).ExceptionCode as u32 == STATUS_ACCESS_VIOLATION {
+   [1m[96m|[0m        [1m[93m^^^^^^[0m [1m[93mdereference of raw pointer[0m
+   [1m[96m|[0m
+   [1m[96m= [0m[1m[97mnote[0m: raw pointers may be null, dangling or unaligned; they can violate aliasing rules and cause data races: all of these are undefined behavior
+   [1m[96m= [0m[1m[97mnote[0m: for more information, see <https://doc.rust-lang.org/edition-guide/rust-2024/unsafe-op-in-unsafe-fn.html>
+
+[1m[93mwarning[E0133][0m[1m[97m: dereference of raw pointer is unsafe and requires unsafe block[0m
+  [1m[96m--> [0mtools\os-native-probe\src\probe71.rs:88:18
+   [1m[96m|[0m
+[1m[96m88[0m [1m[96m|[0m         let op = (*rec).ExceptionInformation[0];
+   [1m[96m|[0m                  [1m[93m^^^^^^[0m [1m[93mdereference of raw pointer[0m
+   [1m[96m|[0m
+   [1m[96m= [0m[1m[97mnote[0m: raw pointers may be null, dangling or unaligned; they can violate aliasing rules and cause data races: all of these are undefined behavior
+   [1m[96m= [0m[1m[97mnote[0m: for more information, see <https://doc.rust-lang.org/edition-guide/rust-2024/unsafe-op-in-unsafe-fn.html>
+
+[1m[93mwarning[E0133][0m[1m[97m: dereference of raw pointer is unsafe and requires unsafe block[0m
+  [1m[96m--> [0mtools\os-native-probe\src\probe71.rs:89:20
+   [1m[96m|[0m
+[1m[96m89[0m [1m[96m|[0m         let addr = (*rec).ExceptionInformation[1] as usize;
+   [1m[96m|[0m                    [1m[93m^^^^^^[0m [1m[93mdereference of raw pointer[0m
+   [1m[96m|[0m
+   [1m[96m= [0m[1m[97mnote[0m: raw pointers may be null, dangling or unaligned; they can violate aliasing rules and cause data races: all of these are undefined behavior
+   [1m[96m= [0m[1m[97mnote[0m: for more information, see <https://doc.rust-lang.org/edition-guide/rust-2024/unsafe-op-in-unsafe-fn.html>
+
+[1m[93mwarning[E0133][0m[1m[97m: dereference of raw pointer is unsafe and requires unsafe block[0m
+  [1m[96m--> [0mtools\os-native-probe\src\probe71.rs:90:18
+   [1m[96m|[0m
+[1m[96m90[0m [1m[96m|[0m         let at = (*rec).ExceptionAddress as usize;
+   [1m[96m|[0m                  [1m[93m^^^^^^[0m [1m[93mdereference of raw pointer[0m
+   [1m[96m|[0m
+   [1m[96m= [0m[1m[97mnote[0m: raw pointers may be null, dangling or unaligned; they can violate aliasing rules and cause data races: all of these are undefined behavior
+   [1m[96m= [0m[1m[97mnote[0m: for more information, see <https://doc.rust-lang.org/edition-guide/rust-2024/unsafe-op-in-unsafe-fn.html>
+
