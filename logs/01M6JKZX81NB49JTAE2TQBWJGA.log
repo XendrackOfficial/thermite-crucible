@@ -373,3 +373,4 @@ $ cargo +1.99.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m midi-consts v0.1.0
 [1m[92m   Compiling[0m os-engine v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\crates\os-engine)
 [1m[92m   Compiling[0m nih_log v0.3.1
+[1m[92m   Compiling[0m clap-sys v0.5.0 (https://github.com/micahrj/clap-sys.git?rev=25d7f53fdb6363ad63fbd80049cb7a42a97ac156#25d7f53f)
