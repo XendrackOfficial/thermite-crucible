@@ -438,3 +438,4 @@ $ cargo +1.99.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m tracing v0.1.44
 [1m[92m   Compiling[0m digest v0.10.7
 [1m[92m   Compiling[0m windows-targets v0.52.6
+[1m[92m   Compiling[0m bumpalo v3.20.3
