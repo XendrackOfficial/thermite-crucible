@@ -267,3 +267,7 @@ $ cargo +1.99.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m regex-automata v0.4.18
 [1m[92m   Compiling[0m syn v3.0.6
 [1m[92m   Compiling[0m libloading v0.8.9
+[1m[92m   Compiling[0m either v1.19.0
+[1m[92m   Compiling[0m itertools v0.13.0
+[1m[92m   Compiling[0m regex v1.13.1
+[1m[92m   Compiling[0m cexpr v0.6.0
