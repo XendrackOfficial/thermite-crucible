@@ -567,3 +567,7 @@ $ cargo +1.99.0 build --release --target x86_64-pc-windows-msvc
 [1m[93mwarning[0m: `os-native-probe` (bin "os-native-probe") generated 6 warnings (run `cargo fix --bin "os-native-probe" -p os-native-probe` to apply 2 suggestions)
 [1m[92m   Compiling[0m flp-dump v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\tools\flp-dump)
 [1m[92m   Compiling[0m os-render v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\tools\os-render)
+[1m[92m   Compiling[0m bundle-plugins v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\tools\bundle-plugins)
+[1m[92m   Compiling[0m watermark v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\tools\watermark)
+[1m[92m   Compiling[0m notices v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\tools\notices)
+[1m[92m   Compiling[0m bundle-app v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\tools\bundle-app)
