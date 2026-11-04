@@ -336,3 +336,8 @@ $ cargo +1.99.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m core_maths v0.1.1
 [1m[92m   Compiling[0m windows-targets v0.42.2
 [1m[92m   Compiling[0m vst3-com v0.1.0 (https://github.com/robbert-vdh/vst3-sys.git?branch=fix%2Fdrop-box-from-raw#b3ff4d77)
+[1m[92m   Compiling[0m crossbeam-channel v0.5.17
+[1m[92m   Compiling[0m winapi-util v0.1.11
+[1m[92m   Compiling[0m fdeflate v0.3.7
+[1m[92m   Compiling[0m allocator-api2 v0.2.21
+[1m[92m   Compiling[0m serde_json v1.0.151
