@@ -392,3 +392,5 @@ $ cargo +1.99.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m atomic_float v0.1.0
 [1m[92m   Compiling[0m raw-window-handle v0.5.2
 [1m[92m   Compiling[0m nih_plug v0.0.0 (https://github.com/robbert-vdh/nih-plug.git#de421011)
+[1m[93mwarning[0m: `os-theme` (lib) generated 1 warning
+[1m[92m   Compiling[0m os-ui v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\crates\os-ui)
