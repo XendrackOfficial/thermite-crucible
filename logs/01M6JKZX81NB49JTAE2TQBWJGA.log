@@ -468,3 +468,5 @@ $ cargo +1.99.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m os-clap v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\crates\os-clap)
 [1m[92m   Compiling[0m lemon-drum-sampler v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\plugins\lemon-drum-sampler)
 [1m[92m   Compiling[0m mp3lame-encoder v0.2.5
+[1m[92m   Compiling[0m softbuffer v0.4.8
+[1m[92m   Compiling[0m pulp-filter v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\plugins\pulp-filter)
