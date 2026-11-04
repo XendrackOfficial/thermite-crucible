@@ -374,3 +374,18 @@ $ cargo +1.99.0 build --release --target x86_64-pc-windows-msvc
 [1m[92m   Compiling[0m os-engine v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\crates\os-engine)
 [1m[92m   Compiling[0m nih_log v0.3.1
 [1m[92m   Compiling[0m clap-sys v0.5.0 (https://github.com/micahrj/clap-sys.git?rev=25d7f53fdb6363ad63fbd80049cb7a42a97ac156#25d7f53f)
+[1m[92m   Compiling[0m anymap3 v1.1.0
+[1m[92m   Compiling[0m os-theme v0.0.1 (D:\a\thermite-crucible\thermite-crucible\jobs\01M6JKZX81NB49JTAE2TQBWJGA\source\crates\os-theme)
+[1m[92m   Compiling[0m widestring v1.2.1
+[1m[93mwarning[0m[1m[97m: variant `Mute` is never constructed[0m
+   [1m[96m--> [0mcrates\os-theme\src\fl.rs:260:5
+    [1m[96m|[0m
+[1m[96m255[0m [1m[96m|[0m pub(crate) enum Role {
+    [1m[96m|[0m                 [1m[96m----[0m [1m[96mvariant in this enum[0m
+[1m[96m...[0m
+[1m[96m260[0m [1m[96m|[0m     Mute,
+    [1m[96m|[0m     [1m[93m^^^^[0m
+    [1m[96m|[0m
+    [1m[96m= [0m[1m[97mnote[0m: `Role` has derived impls for the traits `Clone` and `Debug`, but these are intentionally ignored during dead code analysis
+    [1m[96m= [0m[1m[97mnote[0m: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
